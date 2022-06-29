@@ -5,7 +5,7 @@
  * Most of the communication with users happens here.
  *
  * There are two object types this file introduces:
- * User and Connection.
+ * User and Connection.a
  *
  * A User object is a user, identified by username. A guest has a
  * username in the form "Guest 12". Any user whose username starts
