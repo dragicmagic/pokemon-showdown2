@@ -1989,10 +1989,10 @@ export const Chat = new class {
 		if (plugin.crqHandlers) {
 			Object.assign(Chat.crqHandlers, plugin.crqHandlers);
 		}
-		if (plugin.roomSettings) {
+//		if (plugin.roomSettings) {
 //			if (!Array.isArray(plugin.roomSettings)) plugin.roomSettings = [plugin.roomSettings];
-			Chat.roomSettings = Chat.roomSettings.concat(plugin.roomSettings);
-		}
+//			Chat.roomSettings = Chat.roomSettings.concat(plugin.roomSettings);
+//		}
 		if (plugin.chatfilter) Chat.filters.push(plugin.chatfilter);
 		if (plugin.namefilter) Chat.namefilters.push(plugin.namefilter);
 		if (plugin.hostfilter) Chat.hostfilters.push(plugin.hostfilter);
